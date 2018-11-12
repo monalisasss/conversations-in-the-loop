@@ -174,8 +174,16 @@ section{
     height: 100%;
 }
 
+.container div h3{
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: 2.5em;
+    text-align: left;
+}
+
 .btnTitle{
-    padding: 30px 0;
+    padding: 20px 0;
     margin: 0;
     font-family: inherit;
     font-size: 2.5em;
