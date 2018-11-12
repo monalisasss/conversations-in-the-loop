@@ -1,5 +1,5 @@
-var divs = [$("#01"), $("#02"), $("#03"), $("#04"), $("#05"), $("#06"), $("#07"), $("#08"), $("#09"), $("#10"), $("#10")];
-var menu = [$("#menu01"), $("#menu02"), $("#menu03"), $("#menu04"), $("#menu05"), $("#menu06"), $("#menu07"), $("#menu08"), $("#menu09"), $("#menu09")];
+var divs = [$("#01"), $("#02"), $("#03"), $("#04"), $("#05"), $("#06"), $("#07"), $("#08"), $("#09"), $("#10")];
+var menu = [$("#menu01"), $("#menu02"), $("#menu03"), $("#menu04"), $("#menu05"), $("#menu06"), $("#menu07"), $("#menu08"), $("#menu09"), $("#menu10")];
 var r1
 var r2
 
@@ -16,9 +16,8 @@ menu[7].click({ID:7}, clickMenu);
 menu[8].click({ID:8}, clickMenu);
 menu[9].click({ID:9}, clickMenu);
 
-
 function clickMenu(event) {
-    hideAll()
+    hideAll();
     divs[event.data.ID].removeClass("hide");
     $("#sectionMenu").addClass("hide");
 }
