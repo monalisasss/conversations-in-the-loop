@@ -45,8 +45,9 @@ function showRandom() {
 function hideAll() {
 
     for (i = 0; i < divs.length; i++) {
-        divs[i].addClass("hide");
+        divs[i].addClass('hide');
         divs[i].find('div').hide();
+        divs[i].find('button').removeClass('no-underline');
     }
 
 }
